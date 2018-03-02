@@ -1,0 +1,9 @@
+Ext.define('testMVVM.model.RolePermissionModel',{
+	extend:'Ext.data.Model',
+	fields:[
+	    {name:'id',type:'string'},
+	    {name:'roleName',type:'string'},
+	    {name:'roleDesc',type:'string'},
+	    {name:'permissions',type:'auto'}
+	]
+});

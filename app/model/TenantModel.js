@@ -1,0 +1,13 @@
+Ext.define('testMVVM.model.TenantModel',{
+	extend:'Ext.data.Model',
+	fields:[
+	    {name:'companyName',type:'string'},
+	    {name:'applicant',type:'string'},
+	    {name:'creator',type:'auto'},
+	    {name:'status',type:'string'},
+	    {name:'accessNum',type:'string'},
+	    {name:'domain',type:'string'},
+	    {name:'agentCount',type:'string'},
+	    {name:'extCount',type:'string'}
+	]
+});
